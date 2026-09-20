@@ -22,10 +22,11 @@ settings:
 
 cells:
   dff_flat:
-    netlist: "cells/dff_flat_pex_newest_2.spice"
+    netlist: 
+    - "cells/dff_flat_pex_newest_2.spice"
     models: 
     - "config/mc_switches.spice"
-      - "sky130A/libs.tech/ngspice/sky130.lib.spice tt"
+    - "sky130A/libs.tech/ngspice/sky130.lib.spice tt"
     area: 104.21975
     inputs: 'D'
     outputs: 'Q'
