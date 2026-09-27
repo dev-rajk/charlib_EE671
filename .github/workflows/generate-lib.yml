@@ -28,7 +28,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install git+https://github.com/stineje/CharLib.git@2.1.0
           pip install ciel
-          # pip install "numpy<2" --force-reinstall
+          pip install "numpy<2" --force-reinstall
 
       - name: Download sky130 PDK via Ciel
         env:
